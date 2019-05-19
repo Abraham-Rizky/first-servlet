@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author deannasquire
+ * @author rizky
  */
 @WebServlet(urlPatterns = {"/servlet"})
 public class servlet extends HttpServlet {
@@ -40,8 +40,7 @@ public class servlet extends HttpServlet {
        
         output.println("Welcome " + name +".\n");  
         output.println("\n"); 
-        output.println("Thank you for your inquiry! We will contact you at " + email + " or " + phone + " regarding your " + subject);  
-
+        output.println("Thank you for your inquiry! We will contact you at " + email + " or " + phone + " regarding your " + subject + " question.");  
         output.close();
     }
 
